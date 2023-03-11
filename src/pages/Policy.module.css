@@ -1,0 +1,48 @@
+
+
+
+.main_wrap{
+    
+    padding: 5% 10%;
+
+      
+}
+
+.inner_wrap{
+  margin: auto;
+
+}
+.title{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.text{
+    width: 70%;
+    line-height: 2 ;
+  
+}
+
+.box{
+    margin-top: 5% ;
+    
+}.sub_title{
+    font-size: 30px;
+}
+
+.small_title{
+    font-size: 25px;
+}
+
+
+@media screen and (max-width:900px){
+    .text{
+        width: 100%;
+    }
+
+    .title{
+        font-size: 27px;
+    }
+    
+}

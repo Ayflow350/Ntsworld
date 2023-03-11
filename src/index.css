@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+* html {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.gradient-bg-hero {
+  background: rgb(236,222,233);
+  background: linear-gradient(83deg, rgba(236,222,233,1) 25%, rgba(238,241,247,1) 55%, rgba(208,240,245,1) 81%);
+}
+
+
+
+
+.gradient-bg-artworks {
+  background-color: white;
+
+}
+
+
+.artwork-wrap{
+  padding: 8% 0% ;
+}
+
+
+
+
+.text-gradient {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-text-fill-color: transparent;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+}
+.lds-dual-ring:after {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+ 
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.main-create-wrap{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   height: 110vh; 
+
+   
+
+
+}
+
+.menu-modal{
+  padding: 10% 15%;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-wrap{
+  padding: 0% 15%;
+  
+  
+  
+}
+
+.modal-inner-wrap{
+  padding: 5%
+
+  
+
+
+}
+
+
+li{
+  
+}
+
+Link a{
+  list-style: none;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+  .modal-wrap{
+    padding: 0%;
+    
+  }
+
+ 
+  .mobile-adress-btn{
+    display: none
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
